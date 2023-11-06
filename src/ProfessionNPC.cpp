@@ -158,7 +158,7 @@ public:
 
             if (SkillLineEntry const *SkillInfo = sSkillLineStore.LookupEntry(skill))
             {
-                player->SetSkill(SkillInfo->id, player->GetSkillStep(SkillInfo->id), 450, 450);
+                player->SetSkill(SkillInfo->id, player->GetSkillStep(SkillInfo->id), 375, 450);
 
                 uint32 ClassMask = player->getClassMask();
 
