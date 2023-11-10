@@ -174,6 +174,9 @@ public:
 
                         if (SkillLine->RaceMask != 0)
                             continue;
+                            
+                        if (SkillLine->TrivialSkillLineRankHigh > 395)
+                            continue;   
 
                         if (SkillLine->ClassMask && (SkillLine->ClassMask & ClassMask) == 0)
                             continue;
